@@ -1,7 +1,9 @@
+import Titulo from "../components/titulo";
+
 export default function() {
     return(
         <div>
-            <h1>lobo</h1>
+            <Titulo titulo="Lobo" />
         </div>
     );
 }

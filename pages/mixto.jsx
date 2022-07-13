@@ -1,7 +1,9 @@
+import Titulo from "../components/titulo";
+
 export default function() {
     return(
         <div>
-            <h1>mixto</h1>
+            <Titulo titulo="Mixto" />
         </div>
     );
 }
