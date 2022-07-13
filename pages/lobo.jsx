@@ -1,9 +1,11 @@
-import Titulo from "../components/titulo";
+import React from 'react';
 
-export default function() {
-    return(
-        <div>
-            <Titulo titulo="Lobo" />
-        </div>
-    );
+import Titulo from '../components/titulo';
+
+export default function Lobo() {
+  return (
+    <div>
+      <Titulo titulo="Lobo" />
+    </div>
+  );
 }
